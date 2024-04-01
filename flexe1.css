@@ -1,0 +1,289 @@
+.parent1{
+    padding: auto;
+    margin: auto;
+    display:flex;
+    flex-direction:column;
+    width: 600px;
+    align-content: center;
+    flex-wrap: wrap;
+    gap:5px;
+}
+.fils1{
+    background-color: rgb(96, 96, 245);
+    flex-basis: 70px;
+    border:2px solid blue;
+    width: 650px;
+
+}
+.fils2{
+    background-color: rgb(204, 154, 92);
+    flex-basis: 20px;
+    border:2px solid blue;
+      width: 650px;
+
+}
+.fils3{
+    background-color:rgb(176, 176, 240) ;
+    flex-basis: 40px;
+    border:2px solid blue;
+    flex-basis: 140px;
+    height: 120px;
+}
+.fils4{
+    background-color: plum;
+    flex-basis: 40px;
+    border:2px solid blue;
+    flex-basis: 140px;
+    height: 120px;
+
+}
+.fils5{
+    background-color: rgb(140, 196, 140);
+    flex-basis: 40px;
+    border:2px solid blue;
+    flex-basis: 140px;
+    height: 120px;
+
+}
+.fils6{
+    background-color: rgb(235, 148, 117);
+    flex-basis: 40px;
+    border:2px solid blue;
+    flex-basis: 140px;
+    height: 120px;
+
+}
+.fils7{
+    background-color: rgb(24, 146, 216);
+    flex-basis: 315px;
+    height: 110px;
+    border:2px solid blue;
+}
+.fils8{
+    background-color: rgb(24, 146, 216);
+    flex-basis: 310px;
+    height: 110px;
+    border:2px solid blue;
+}
+.fils9{
+    background-color: rgb(174, 119, 223);
+    background-color: violet;
+}
+.ktaba{
+    padding-left: 250px;
+    color: white;
+}
+.ktaba1{
+    padding-left: 270px;
+    color: white;
+}
+.parent2{
+    padding: auto;
+    margin: auto;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:25px;
+}
+.ktaba2{
+    padding-left: 39px;
+    position: relative;
+    margin-top: 48px;
+    color: white;
+}
+.ktaba3{
+    padding-left: 39px;
+    position: relative;
+    margin-top: 48px;  
+    color: white;
+}
+.ktaba4{
+    padding-left: 39px;
+    position: relative;
+    margin-top: 48px; 
+    color: white;
+}
+.ktaba5{
+      
+    padding-left:40px;
+    position: relative;
+    margin-top: 45px; 
+    color: white;
+}
+.parent3{
+    padding: auto;
+    margin: auto;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:25px;
+
+}
+.parent4{
+    padding: auto;
+    margin: auto;
+    display:flex;
+    flex-direction:column;
+    width: 600px;
+    align-content: center;
+    flex-wrap: wrap;
+    gap:5px;
+
+}
+.fils9{
+
+        background-color: rgb(96, 96, 245);
+        flex-basis: 70px;
+        border:2px solid blue;
+        width: 650px;
+    
+
+}
+.ktaba6{
+    padding-left: 130px;
+    position: relative;
+    margin-top: 40px; 
+    color: white;
+}
+.ktaba7{
+    padding-left: 130px;
+    position: relative;
+    margin-top: 40px; 
+    color: white;
+}
+.ktaba8{
+    padding-left: 270px;
+    color: white;
+}
+@media screen and (max-width:700px) {
+ .fils1{
+        background-color: rgb(96, 96, 245);
+        flex-basis:50 px;
+        border:2px solid blue;
+        width:410px;
+        padding-left: 60px;
+        align-self: center;
+
+    
+    }
+    .fils2{
+
+        flex-basis: 20px;
+        border:2px solid blue;
+          width: 410px;
+          padding-left: 60px;
+          align-self: center;
+
+    }
+    .fils3{
+        background-color:rgb(176, 176, 240) ;
+        flex-basis: 50px;
+        border:2px solid blue;
+        flex-basis: 90px;
+        height: 90px;
+    }
+    .fils4{
+
+        flex-basis: 30px;
+        border:2px solid blue;
+        flex-basis: 90px;
+        height: 90px;
+
+
+    }
+    .fils5{
+
+        flex-basis: 30px;
+        border:2px solid blue;
+        flex-basis: 90px;
+        height: 90px;
+    }
+    .fils6{
+
+        flex-basis: 30px;
+        border:2px solid blue;
+        flex-basis: 95px;
+        height: 90px;
+    }
+    .fils7{
+    width: 280px;
+        flex-basis: 217px;
+        height: 90px;
+        border:2px solid blue;
+    }
+    .fils8{
+            width: 280px;
+        flex-basis: 217px;
+        height: 90px;
+        border:2px solid blue;
+    }
+    .fils9{
+
+        background-color: rgb(96, 96, 245);
+        flex-basis: 70px;
+        border:2px solid blue;
+        width: 465px;
+        padding-left: 5px;
+    
+
+}
+.parent2{
+    gap:30px;
+    padding-left: 14px;;
+}
+.ktaba{
+
+    padding-left: 135px;
+}
+.parent3{
+    padding-left: 16px;
+}
+.ktaba1{
+
+    padding-left: 150px;
+}
+.ktaba2{
+    padding-left: 20px;
+    position: relative;
+    top:-10px;
+}
+.ktaba3{
+    padding-left: 20px;
+    position: relative;
+    top:-10px;
+
+}
+.ktaba4{
+    padding-left: 20px;
+    position: relative;
+    top:-10px;
+}
+.ktaba5{
+    padding-left: 20px;
+    position: relative;
+    top:-10px;
+}
+.ktaba6{
+       top:-10px;
+    padding-left: 90px;
+}
+.ktaba7{
+    top:-10px;
+    padding-left: 90px;
+
+}
+.ktaba8{
+    padding-left: 200px;
+}
+
+
+}
+
+
+
+
+
+
+
